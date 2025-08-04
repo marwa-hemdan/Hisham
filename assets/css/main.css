@@ -1132,7 +1132,9 @@ footer>p {
 }
 
 @media screen and (max-width: 980px) {
-
+	.title{
+	text-align: center !important;
+}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1378,6 +1380,9 @@ footer>p {
 
 @media screen and (max-width: 736px) {
 
+	.title{
+	text-align: center !important;
+}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1688,7 +1693,10 @@ form :-ms-input-placeholder {
 form ::-moz-focus-inner {
 	border: 0;
 }
-
+.publications a{
+color: #484848;
+text-decoration: none;
+}
 /* Tables */
 
 table {
@@ -1736,6 +1744,7 @@ section:last-child,
 article:last-child {
 	margin-bottom: 0;
 }
+
 
 /* Image */
 
